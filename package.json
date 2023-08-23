@@ -34,7 +34,8 @@
     "workbox-range-requests": "^6.6.0",
     "workbox-routing": "^6.6.0",
     "workbox-strategies": "^6.6.0",
-    "workbox-streams": "^6.6.0"
+    "workbox-streams": "^6.6.0",
+    "react-router-dom": "^6.15.0"
   },
   "scripts": {
     "start": "react-scripts start", 
@@ -59,8 +60,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "react-router-dom": "^6.15.0"
   }
 }
