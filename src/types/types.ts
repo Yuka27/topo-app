@@ -21,7 +21,7 @@ export interface SessionItem {
     isBegginerFriendly: boolean
     begginerFriendlyDesc: string
     minAge: string | number
-    location: string
+    location: number
     mg: string
     players: number
     outsideCompetition?: boolean

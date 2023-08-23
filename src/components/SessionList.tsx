@@ -6,7 +6,13 @@ interface SesionListPage {
     sessions: SessionItem[]
 }
 
-const SessionList: React.FC<SesionListPage> = ({ sessions }) => <div>{sessions?.sort((a, b) => (a.location < b.location) && (a.time.startTime < b.time.startTime) ? -1 : 1).map(session => <Session key={session.id} session={session}/>)}</div>;
+const SessionList: React.FC<SesionListPage> = ({ sessions }) => <div>{sessions?.sort( (a, b) => {
+    console.log("a", a)
+    console.log("b", b)
+    if (parseInt(a.time.startTime) < parseInt(b.time.startTime)) return -1;
+    if (a.location > b.location) return 1;
+    return -1;
+    }).map(session => <Session key={session.id} session={session}/>)}</div>;
   
-export default SessionList;
+export default SessionList; 
   
