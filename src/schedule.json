@@ -509,7 +509,7 @@
             },
             {
                 "name": "Statystyki RPG i czy coś z nich wynika?",
-                "desc": "?",
+                "desc": "Na co warto zwracać uwagę, od kogo się uczyć i jak patrzeć czy to działa.",
                 "time": {
                     "startTime": "11:00",
                     "endTime": "11:45"
@@ -564,7 +564,7 @@
             },
             {
                 "name": "Fajka a LARP - trudna sztuka palenia",
-                "desc": "?",
+                "desc": "Palisz fajkę podczas LARP? Chcesz plalć dłużej i lepiej? Chcesz czerpać z tego przyjemność? Zapraszam na warsztaty przyjaźni z fajką. Pokaże od czego zacząć, jak rozróżniać fajki, jak nabijać, jak palić, a najważniejsze jak dbać o fajkę.",
                 "time": {
                     "startTime": "11:00",
                     "endTime": "12:45"
@@ -1157,23 +1157,6 @@
                 "triggers": ["Nie wiem, dogadamy przed sesją"]
             },
             {
-                "id": "17",
-                "name": "Pewnego razu w Chicago",
-                "system": "Fallout SPECIALnym Genesys RPG",
-                "mg": "Tomasz Dzonatanos Grabowski (Kulnij Se – Śląska Grupa RPGowa)",
-                "desc": "Wielka Wojna zaczęła się (i skończyła zarazem) w sobotę 23 października 2077 r. Wojna trwała bardzo krótko, ale była niewiarygodnie niszczycielska. Zostało wyzwolone więcej energii niż podczas wszystkich poprzednich konfliktów razem wziętych. Po około dwóch godzinach cała Ziemia pogrążyła się w ciemnościach. Wielu mieszkańców sądziło, że wyjące syreny to tylko kolejny fałszywy alarm i nie weszło do Krypt, które zostały w krótkim czasie w większości zamknięte. Bomby dokonały olbrzymich spustoszeń i skażenia wielu terenów, w tym większości wód świata. Styczeń 2170 roku. Mieszkańcy Krypty 113 obalili swojego Nadzorcę i pierwszy raz od Wielkiej Wojny wyszli na powierzchnię. Co uda im się tam odnaleźć ? Jakie niebezpieczeństwa skrywają tutejsze Pustkowia? Czy w ogóle komuś innemu udało się przetrwać nuklearną pożogę?",
-                "minAge": 18,
-                "isBegginerFriendly": true,
-                "begginerFriendlyDesc": null,
-                "players": 4,
-                "location": "?",
-                "time": {
-                    "startTime": "20:00",
-                    "endTime": ""
-                },
-                "triggers": ["akcja", "przygoda", "kości fabularne", "pistolety", "radiacja", "magia", "kreatywność graczy", "rasizm wobec ciężko pracującej klasy robotniczej i ghuli", "zagłada świata", "niewolnictwo"]
-            },
-            {
                 "id": "18",
                 "name": "CyberFunk: Supercalifragilistic When We Drop We Go Ballistic!",
                 "system": "Fates in The Dark (Fate X Forged in The Dark)",
@@ -1325,23 +1308,6 @@
                     "endTime": ""
                 },
                 "triggers": ["Głupi humor"]
-            },
-            {
-                "id": "28",
-                "name": "BlackJack",
-                "system": "BlackJack RPG",
-                "mg": "Krzysztof Renal Brzeziński (Kulnij Se – Śląska Grupa RPGowa)",
-                "desc": "W dzisiejszej grze Krupierem jest mafia Stawką – życie Black Jack RPG (BJRPG) jest grą fabularną o brawurowej walce z mafią. Od dwóch do czterech graczy wciela się w rolę bohaterów w dużym mieście w USA z okresu prohibicji. Celem drużyny jest pokonanie Bossa – wpływowego i bezlitosnego lidera organizacji przestępczej – zanim on pokona ich. Gra jest oparta na fabule gangsterskich filmów akcji i zakłada podobny styl, mechanika sprzyja proaktywnym graczom i hazardzistom.",
-                "minAge": 18,
-                "isBegginerFriendly": true,
-                "begginerFriendlyDesc": null,
-                "players": 4,
-                "location": "?",
-                "time": {
-                    "startTime": "20:00",
-                    "endTime": ""
-                },
-                "triggers": ["Przemoc", "Prohibicja", "przestępstwa", "seksizm", "rasizm"]
             },
             {
                 "id": "29",

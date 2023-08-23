@@ -5,14 +5,12 @@ import CasinoIcon from '@mui/icons-material/Casino';
 import PlaceIcon from '@mui/icons-material/Place';
 import HomeIcon from '@mui/icons-material/Home';
 import { isMobile } from 'react-device-detect';
-
 import { useState } from "react";
-import { InstallPWA } from "./PWAPropmpModal";
 
 const Layout = () => {
     const [value, setValue] = useState(0);
     return (
-        <Box sx={{paddingBottom: 5}}>
+        <Box sx={{paddingBottom: 10}}>
         <AppBar position="static">
             <Container maxWidth="xl" sx={{paddingBottom: 1, paddingTop: 1, display: 'flex', alignItems: 'center'}}>
                 <img src="./Toporiada-logo-biale-sygnet.png" loading="lazy" width="50px" height="42px" />

@@ -37,8 +37,10 @@ const Expand = (props: ExpandMoreProps) => {
 const Event: React.FC<EventPage> = ({ event }) => {
   const [expanded, setExpanded] = React.useState(false);
 
-  const handleExpandClick = () => {
+  const handleExpandClick = (event: ScheduleItem) => {
+    if (event.desc) {
     setExpanded(!expanded);
+    }
   };
 
   const typeConfiguration = {
@@ -70,13 +72,13 @@ const Event: React.FC<EventPage> = ({ event }) => {
 
   return (
     <Card sx={{marginBottom: 1, borderRadius: 3}} 
-    onClick={handleExpandClick}>
+    onClick={() => handleExpandClick(event)}>
       <CardHeader
         sx={{position: 'relative'}}
         title={<Typography sx={{marginRight: 5}} variant="h5">{event.type && typeConfiguration[event.type]?.icon} {event.name}</Typography>}
         subheader={<Box>
           <Typography variant="h6" color="text.secondary" sx={{marginTop: 1, marginBottom: 1}}>{event.time.startTime} {event.time.endTime && `- ${event.time.endTime}`}</Typography>
-          {event.author && <Chip label={event.author} sx={{marginTop: 1, marginBottom: 1, marginRight: 1}} />}
+          {event.author && <Chip label={event.author} sx={{marginTop: 1, marginBottom: 1, marginRight: 1, height: 'auto', '& .MuiChip-label': { display: 'block', whiteSpace: 'normal'}}} />}
           {event.location && <Chip  variant="outlined" icon={<PlaceIcon color='error'/>} label={event.location} sx={{marginTop: 1, marginBottom: 1, marginRight: 1, paddingLeft: 0.5}}/>}
           {event.type && <Chip icon={typeConfiguration[event.type].icon} variant="outlined" label={typeConfiguration[event.type].label} sx={{marginTop: 1, marginBottom: 1, paddingLeft: 1}} />}
         </Box>}
