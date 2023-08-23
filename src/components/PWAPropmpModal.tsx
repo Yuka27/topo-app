@@ -1,37 +1,34 @@
 import React from 'react';
-import { Button, Modal, Card, CardText, CardBody, CardTitle } from 'reactstrap';
 import useIosInstallPrompt from '../useIosInstallPrompt';
 import useWebInstallPrompt from '../useWebInstallPrompt';
+import { Button, Dialog, DialogContent, DialogContentText, DialogTitle } from '@mui/material';
 
 export const InstallPWA = () => {
   const [iosInstallPrompt, handleIOSInstallDeclined] = useIosInstallPrompt();
   const [webInstallPrompt, handleWebInstallDeclined, handleWebInstallAccepted] = useWebInstallPrompt();
+  const [open, setOpen] = React.useState(true);
+
+  const handleClose = () => {
+    setOpen(false);
+  };
 
   if (!iosInstallPrompt && !webInstallPrompt) {
     return null;
   }
   return (
-    <Modal isOpen centered>
-      <Card>
-        <img
-          className="mx-auto"
-          style={{
-            borderTopRightRadius: '50%',
-            borderTopLeftRadius: '50%',
-            backgroundColor: '#fff',
-            marginTop: '-50px'
-          }}
-          width="100px"
-          src="content/images/appIcon-transparent.png"
-          alt="Icon"
-        />
-        <CardBody>
-          <CardTitle className="text-center">
-            <h3>Install App</h3>
-          </CardTitle>
-          {iosInstallPrompt && (
+    <Dialog
+    open={open}
+    onClose={handleClose}
+    aria-labelledby="alert-dialog-title"
+    aria-describedby="alert-dialog-description"
+  >
+    <DialogTitle id="alert-dialog-title">
+      {"Chcesz zapisać apkę na telefonie?"}
+    </DialogTitle>
+    <DialogContent>
+    {iosInstallPrompt && (
             <>
-              <CardText className="text-center">
+              <DialogContentText className="text-center">
                 Tap
                 <img
                   src="content/images/Navigation_Action_2x.png"
@@ -41,7 +38,7 @@ export const InstallPWA = () => {
                   width="20"
                 />
                 then &quot;Add to Home Screen&quot;
-              </CardText>
+              </DialogContentText>
               <div className="d-flex justify-content-center">
                 <Button onClick={handleIOSInstallDeclined}>Close</Button>
               </div>
@@ -55,8 +52,7 @@ export const InstallPWA = () => {
               <Button onClick={handleWebInstallDeclined}>Close</Button>
             </div>
           )}
-        </CardBody>
-      </Card>
-    </Modal>
+    </DialogContent>
+  </Dialog>
   );
 };
