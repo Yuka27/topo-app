@@ -78,3 +78,24 @@ self.addEventListener('message', (event) => {
 });
 
 // Any other custom service worker logic can go here.
+
+const cacheName = 'cache-v1';
+const resourcesToPrecache = [
+  '/',
+  '/index.html',
+  '/kwadrat.png',
+  '/Mapa.png',
+  '/Toporiada-logo-biale-sygnet.png',
+]
+
+self.addEventListener('install', event => {
+  console.log('SW install event!');
+  event.waitUntil(
+    caches.open(cacheName)
+    .then(cache => cache.addAll(resourcesToPrecache))
+    )
+  })
+  
+  self.addEventListener('fetch', event => {
+    event.respondWith(caches.match(event.request).then(cacheResponse => cacheResponse || fetch(event.request)))
+  })

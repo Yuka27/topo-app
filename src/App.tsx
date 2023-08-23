@@ -6,7 +6,6 @@ import SessionPage from "./components/SessionPage";
 import MapPage from "./components/MapPage";
 import "./App.css";
 
-
 const App: React.FC = () => {
   let data = require('./schedule.json');
   return (
