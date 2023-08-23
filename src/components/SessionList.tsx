@@ -7,8 +7,6 @@ interface SesionListPage {
 }
 
 const SessionList: React.FC<SesionListPage> = ({ sessions }) => <div>{sessions?.sort( (a, b) => {
-    console.log("a", a)
-    console.log("b", b)
     if (parseInt(a.time.startTime) < parseInt(b.time.startTime)) return -1;
     if (a.location > b.location) return 1;
     return -1;

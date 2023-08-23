@@ -1678,6 +1678,27 @@
                 "author": "Maria Mary Wichary Antoni Cypis Mielczyński"
             },
             {
+                "name": "Spotkanie z Finalistami Złotych Toporów",
+                "desc": "Spotkanie z finalistami Złotych Toporów, podczas którego odbędzie się losowanie sesji dla graczy.",
+                "time": {
+                    "startTime": "14:00",
+                    "endTime": "14:45"
+                },
+                "type": "Inne",
+                "location": "Stajnia Nomadów"
+            },
+            {
+                "name": "Finały Złotych Toporów",
+                "desc": "",
+                "time": {
+                    "startTime": "15:00",
+                    "endTime": "19:00"
+                },
+                "type": "Konkurs",
+                "location": "",
+                "author": ""
+            },
+            {
                 "name": "Konkurs Krzepy Krasnoludzkiej",
                 "desc": "Piwo (ewentualnie miód pitny), złoto i brody. To najważniejsze w życiu. Jednak by na to zasłużyć każdy krasnolud musi udowodnić swoją krzepę. W tym celu raz w roku spotykają się na festiwalu gdzie każdy może się pochwalić swoimi mięśniami najczęściej piwnymi. Bo krasnolud nie tylko ma brzuch piwny. Kto w tym roku zyska miano najsilniejszego krasnoluda lub krasnoludzicy. To się przekonamy",
                 "time": {
