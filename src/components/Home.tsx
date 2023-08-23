@@ -25,7 +25,7 @@ const Home = () => {
     return () => window.removeEventListener('appinstalled', appInstalledHandler);
   }, []);
   
-  return <Box sx={{ width: '100%', bgcolor: 'background.paper' }}>
+  return <Box sx={{ width: '100%', bgcolor: 'background.paper', marginBottom: 5}}>
   <Typography color={grey[50]} variant="h5" sx={{marginTop: 2, marginLeft: 4}}> Najważniejsze informacje</Typography>
   <img src="./kwadrat.png" loading="lazy" style={{maxWidth: '100vw', margin: '20px 0'}}/>
   <Typography color={grey[200]} variant="h6" sx={{marginTop: 2, marginLeft: 4}}> Gdyby coś się działo dzwoń do:</Typography>
