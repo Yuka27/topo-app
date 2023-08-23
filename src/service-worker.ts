@@ -95,7 +95,19 @@ self.addEventListener('install', event => {
     .then(cache => cache.addAll(resourcesToPrecache))
     )
   })
+
+  self.addEventListener('activate', (event) => {
+    console.log('Service worker activate event!');
+  });
   
-  self.addEventListener('fetch', event => {
-    event.respondWith(caches.match(event.request).then(cacheResponse => cacheResponse || fetch(event.request)))
-  })
+  self.addEventListener('fetch', (event) => {
+    console.log('Fetch intercepted for:', event.request.url);
+    event.respondWith(
+      caches.match(event.request).then((cachedResponse) => {
+        if (cachedResponse) {
+          return cachedResponse;
+        }
+        return fetch(event.request);
+      }),
+    );
+  });
