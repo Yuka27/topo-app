@@ -8,6 +8,7 @@ import "./App.css";
 import { useState, useEffect } from "react";
 import { Schedule } from "./types/types";
 
+
 const App: React.FC = () => {
   const [data, setData] = useState<Schedule>();
  

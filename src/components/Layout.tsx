@@ -6,6 +6,7 @@ import PlaceIcon from '@mui/icons-material/Place';
 import HomeIcon from '@mui/icons-material/Home';
 
 import { useState } from "react";
+import { InstallPWA } from "./PWAPropmpModal";
 
 const Layout = () => {
     const [value, setValue] = useState(0);

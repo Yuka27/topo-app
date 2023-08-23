@@ -86,16 +86,9 @@ const resourcesToPrecache = [
   'data/schedule.json',
   'kwadrat.png',
   'Mapa.png',
+  'logo512.png',
   'Toporiada-logo-biale-sygnet.png',
 ]
-
-self.addEventListener('install', event => {
-  console.log('SW install event!');
-  event.waitUntil(
-    caches.open(cacheName)
-    .then(cache => cache.addAll(resourcesToPrecache))
-    )
-  })
   
   self.addEventListener('fetch', event => {
     event.respondWith(caches.match(event.request).then(cacheResponse => cacheResponse || fetch(event.request)))
