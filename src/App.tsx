@@ -5,27 +5,10 @@ import Layout from './components/Layout'
 import SessionPage from "./components/SessionPage";
 import MapPage from "./components/MapPage";
 import "./App.css";
-import { useState, useEffect } from "react";
-import { Schedule } from "./types/types";
 
 
 const App: React.FC = () => {
-  const [data, setData] = useState<Schedule>();
- 
-    const fetchJson = () => {
-        fetch('./data/schedule.json')
-        .then(response => {
-          return response.json();
-        }).then(data => {
-          setData(data);
-        }).catch((e: Error) => {
-          console.log(e.message);
-        });
-    }
-
-    useEffect(() => {
-        fetchJson()
-    },[])
+  let data = require('./schedule.json');
   return (
     <BrowserRouter>
     <Routes>
