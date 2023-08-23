@@ -2,6 +2,7 @@ import { Box, Typography } from '@mui/material';
 import Button from '@mui/material/Button';
 import { grey } from '@mui/material/colors';
 import { useState, useEffect } from 'react';
+import { isMobile } from 'react-device-detect';
 
 const Home = () => {
   const [installPromptEvent, setInstallPromptEvent] = useState();
@@ -30,11 +31,11 @@ const Home = () => {
   // @ts-expect-error
     installPromptEvent?.prompt();
   }
-console.log(appInstalled)
+  
   return <Box sx={{ width: '100%', bgcolor: 'background.paper' }}>
-  {!appInstalled && <Box>
+  {(!appInstalled && isMobile) && <Box>
   <Typography color={grey[50]} variant="h5" sx={{marginTop: 2, marginLeft: 4}}> Chcesz mieć łatwy dostęp do programu toporiady?</Typography>
-  <Box sx={{ width: '100%', bgcolor: 'background.paper', display: 'flex', justifyContent: 'center', padding: 2}}>
+  <Box sx={{ width: '100%', bgcolor: 'background.paper', display: 'flex', justifyContent: 'center', paddingTop: 2, paddingBottom: 2}}>
     <Button variant="contained" color="primary" onClick={handleWebInstallAccepted}>Zainstaluj aplikacje</Button>
     </Box>
     </Box>}

@@ -75,11 +75,12 @@ const Session: React.FC<SessionPage> = ({ session }) => {
         subheader={<Box>
           <Typography variant="h6" color="text.secondary" sx={{marginTop: 1, marginBottom: 1}}>{session.time?.startTime} {session.time?.endTime && `- ${session.time?.endTime}`}</Typography>
           {session.mg && <Chip label={session.mg} sx={{marginTop: 1, marginBottom: 1, marginRight: 1, height: 'auto', '& .MuiChip-label': { display: 'block', whiteSpace: 'normal'} }} />}
-          {session.location && <Chip  variant="outlined" icon={<PlaceIcon color='error'/>} label={session.location} sx={{marginTop: 1, marginBottom: 1, marginRight: 1, paddingLeft: 0.5}}/>}
-          {session.isBegginerFriendly && <Chip  variant="outlined" icon={<SpaIcon color='success'/>} label="Sesja odpowiednia dla początkujuących" sx={{marginTop: 1, marginBottom: 1, marginRight: 1, paddingLeft: 0.5}}/>}
+          {session.system && <Chip variant="outlined" icon={<CasinoIcon />} label={session.system} sx={{marginTop: 1, marginBottom: 1, marginRight: 1, paddingLeft: 0.5, '& .MuiChip-label': { display: 'block', whiteSpace: 'normal'}}}/>}
+          {session.players && <Chip variant="outlined" icon={<GroupsIcon />} label={session.players} sx={{marginTop: 1, marginBottom: 1, marginRight: 1, paddingLeft: 0.5}}/>}
+          {session.location && <Chip variant="outlined" icon={<PlaceIcon color='error'/>} label={`Namiot ${session.location}`} sx={{marginTop: 1, marginBottom: 1, marginRight: 1, paddingLeft: 0.5}}/>}
+          {!session.outsideCompetition && <Chip variant="outlined" color="warning" label="Złote Topory" sx={{marginTop: 1, marginBottom: 1, marginRight: 1, paddingLeft: 0.5}}/>}
           {session.minAge && <Chip  variant="outlined" color='error' label={typeof session.minAge === 'number' ? `${session.minAge}+` : '???'} sx={{marginTop: 1, marginBottom: 1, marginRight: 1, paddingLeft: 0.5}}/>}
-          {session.players && <Chip  variant="outlined" icon={<GroupsIcon />} label={session.players} sx={{marginTop: 1, marginBottom: 1, marginRight: 1, paddingLeft: 0.5}}/>}
-          {session.system && <Chip  variant="outlined" icon={<CasinoIcon />} label={session.system} sx={{marginTop: 1, marginBottom: 1, marginRight: 1, paddingLeft: 0.5, '& .MuiChip-label': { display: 'block', whiteSpace: 'normal'}}}/>}
+          {session.isBegginerFriendly && <Chip variant="outlined" icon={<SpaIcon color='success'/>} label="Sesja odpowiednia dla początkujuących" sx={{marginTop: 1, marginBottom: 1, marginRight: 1, paddingLeft: 0.5}}/>}
         </Box>}
         action={session.desc &&
           <Expand
@@ -117,9 +118,12 @@ const Session: React.FC<SessionPage> = ({ session }) => {
             Opis sesji
           </Typography>
           </>}
-          <Typography>
+          <Typography sx={{marginBottom: 1}}>
             {session.desc}
           </Typography>
+          {session.outsideCompetition && <Typography color={deepOrange[200]} sx={{marginBottom: 1}}>
+            Ta sesja nie bierze udziału w konkursie Złote Topory
+          </Typography>}
           {session.triggers?.length && session.triggers.map(trigger => <Chip key={trigger} variant="outlined" color='error' label={trigger} sx={{marginTop: 1, marginBottom: 1, marginRight: 1, paddingLeft: 0.5}}/>)}
         </CardContent>
       </Collapse>

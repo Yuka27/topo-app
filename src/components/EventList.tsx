@@ -5,7 +5,7 @@ interface EventListPage {
     events: ScheduleItem[]
 }
 
-const EventList: React.FC<EventListPage> = ({ events }) => <div>{events?.map(event => <Event key={event.name} event={event}/>)}</div>;
+const EventList: React.FC<EventListPage> = ({ events }) => <div>{events?.map((event, index) => <Event key={event.name + index} event={event}/>)}</div>;
   
 export default EventList;
   

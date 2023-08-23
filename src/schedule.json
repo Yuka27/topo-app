@@ -64,6 +64,11 @@
                 "isBegginerFriendly": false,
                 "begginerFriendlyDesc": "Nie, sesja dla doświadczonych graczy – ALE nie jest wymagana znajomość systemu i mechaniki",
                 "players": 4,
+                "location": 1,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Śmierć", "horror", "thriller"]
             },
             {
@@ -76,6 +81,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": "Tak, nawet osoba nie grająca nigdy wcześniej sobie poradzi!",
                 "players": 4,
+                "location": 2,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["śpiewanie szant", "śmierć BG i BN", "poczucie bezsilności", "PvP", "szaleństwo", "okrucieństwo w stosunku do zwierząt (wielorybów)", "przemoc", "charakterystyczna dla Zewu Cthulhu ohyda (macki, rozkład itp.)"]
             },
             {
@@ -88,6 +98,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": 16,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["wulgarne słownictwo graficzne opisy", "przemoc", "przemoc psychiczna", "niewolnictwo", "horror"]
             },
             {
@@ -100,6 +115,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": 20,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Smutek"]
             },
             {
@@ -112,6 +132,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": 4,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["seks", "braki MG w lore Star Treka", "fully automated luxurious gay space communism"]
             },
             {
@@ -124,6 +149,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": 17,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Durny humor"]
             },
             {
@@ -136,6 +166,12 @@
                 "isBegginerFriendly": false,
                 "begginerFriendlyDesc": "Nie, sesja dla doświadczonych graczy – ALE nie jest wymagana znajomość systemu i mechaniki",
                 "players": 6,
+                "location": 10,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
+                "outsideCompetition": true,
                 "triggers": ["Humor internetu lat 2000"]
             },
             {
@@ -148,6 +184,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": 19,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Okultyzm", "magia", "śmierć", "krew", "przemoc wobec zwierząt", "przemoc", "tortury"]
             },
             {
@@ -160,6 +201,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": 24,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Choroba", "Strata Bliskich", "Umieranie", "Przeklinanie", "Zabijanie", "Horrorowe Stworzenia"]
             },
             {
@@ -172,6 +218,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": 12,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["zdrada", "kulty", "śmierć z upału", "soft erotic", "morderstwo"]
             },
             {
@@ -184,6 +235,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": "Docelowo sesja jest przeznaczona dla doświadczonych graczy którzy nie muszą znać systemu ale nic się nie stanie jeśli trafi się jakiś początkujący gracz.",
                 "players": 4,
+                "location": 8,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Krew", "brutalność", "śmierć", "Dewastacja miejsc kultury", "ksenofobia"]
             },
             {
@@ -196,6 +252,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": "doświadczenie erpegowe jest mało istotne, ale podstawowa znajomość Starego Świata jest wymagana",
                 "players": 4,
+                "location": 18,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Całe klasyczne dla Warhammera plugastwo"]
             },
             {
@@ -208,6 +269,12 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 5,
+                "location": 5,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
+                "outsideCompetition": true,
                 "triggers": ["kanibalizm", "brutalność", "tortury", "krzywda dzieciom", "rasizm", "gwałt"]
             },
             {
@@ -220,6 +287,11 @@
                 "isBegginerFriendly": false,
                 "begginerFriendlyDesc": "Nie, sesja dla doświadczonych graczy – ALE nie jest wymagana znajomość systemu i mechaniki",
                 "players": 4,
+                "location": 6,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Przemoc", "samotność", "liceum ogólnokształcące", "narkotyki"]
             },
             {
@@ -232,6 +304,11 @@
                 "isBegginerFriendly": false,
                 "begginerFriendlyDesc": "Sesja dla bardziej doświadczonych graczy lubiących dodawać coś do siebie by wzbogacić sesję.",
                 "players": 4,
+                "location": 22,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["przemoc", "mucyka rockowa"]
             },
             {
@@ -244,6 +321,11 @@
                 "isBegginerFriendly": false,
                 "begginerFriendlyDesc": "Nie, sesja dla doświadczonych graczy – ALE nie jest wymagana znajomość systemu i mechaniki",
                 "players": 5,
+                "location": 3,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Narkotyki", "Seks", "Alkohol", "Przemoc Psychiczna", "hazard", "niewielkie umiejętności śpiewania piosenek Disneya przy stole"]
             },
             {
@@ -256,6 +338,11 @@
                 "isBegginerFriendly": false,
                 "begginerFriendlyDesc": "Nie, sesja dla doświadczonych graczy – ALE nie jest wymagana znajomość systemu i mechaniki",
                 "players": 4,
+                "location": 9,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Brutalność", "śmierć", "religia"]
             },
             {
@@ -268,6 +355,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 6,
+                "location": 14,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": []
             },
             {
@@ -280,6 +372,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": 23,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Szaleństwo", "Rytuały", "Religijność", "Brutalność", "Śmierć"]
             },
             {
@@ -292,6 +389,11 @@
                 "isBegginerFriendly": false,
                 "begginerFriendlyDesc": "Nie, sesja dla doświadczonych graczy – ALE nie jest wymagana znajomość systemu i mechaniki",
                 "players": 4,
+                "location": 13,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["śmierć", "przemoc", "horror nadnaturalny", "wulgarny język", "tortury"]
             },
             {
@@ -304,6 +406,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 5,
+                "location": 7,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Wszelkie, tematyka przygody jest wybitnie ciężka"]
             },
             {
@@ -316,6 +423,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": 15,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Brutalność", "śmierć", "okrucieństwo wobec zwierząt", "zakopanie żywcem", "tortury", "krzywda nastolatków"]
             },
             {
@@ -328,6 +440,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 5,
+                "location": 25,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["brutalność", "śmierć", "dantejskie widoki", "okultyzm"]
             },
             {
@@ -340,6 +457,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": "Idealna dla początkujących graczy",
                 "players": 4,
+                "location": 11,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Przemoc", "śmierć", "krew"]
             },
             {
@@ -352,6 +474,11 @@
                 "isBegginerFriendly": false,
                 "begginerFriendlyDesc": "Nie, sesja dla doświadczonych graczy – ALE nie jest wymagana znajomość systemu i mechaniki",
                 "players": 4,
+                "location": 21,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["morderstwo"]
             }
         ]
@@ -363,7 +490,7 @@
                 "desc": "Mistrzu Gry! Chcesz poprowadzić sesję na Toporiadzie? Przyjdź na akredytację, wypełnij ogłoszenie i wywieś je na tablicy! Graczu! Chcesz w coś pograć? Przyjdź na akredytację i zobacz, co jest ogłoszone! Codziennie od 11 do 19:00 udostępniamy Wam namioty sesyjne – korzystajcie do woli! Macie dodatkowe pytania? Akredytacja na pewno Wam odpowie 🙂",
                 "time": {
                     "startTime": "10:00",
-                    "endTime": ""
+                    "endTime": "14:00"
                 },
                 "type": "Inne",
                 "location": "",
@@ -755,6 +882,12 @@
                 "isBegginerFriendly": false,
                 "begginerFriendlyDesc": "Nie, sesja dla doświadczonych graczy – ALE nie jest wymagana znajomość systemu i mechaniki",
                 "players": 4,
+                "location": 5,
+                "time": {
+                    "startTime": "11:00",
+                    "endTime": "15:00"
+                },
+                "outsideCompetition": true,
                 "triggers": ["Sesja na ostro bez taryfy ulgowej", "Odwzorowanie świata"]
             },
             {
@@ -767,6 +900,12 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": 12,
+                "time": {
+                    "startTime": "15:00",
+                    "endTime": "19:00"
+                },
+                "outsideCompetition": true,
                 "triggers": ["Ustalone w zgodzie z graczami"]
             },
             {
@@ -779,6 +918,12 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": 6,
+                "time": {
+                    "startTime": "11:00",
+                    "endTime": "15:00"
+                },
+                "outsideCompetition": true,
                 "triggers": ["wulgarne słownictwo", "światopogląd", "religia", "polityka", "przemoc", "fanatyzm", "horror", "gore"]
             },
             {
@@ -791,6 +936,12 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 5,
+                "location": 13,
+                "time": {
+                    "startTime": "15:00",
+                    "endTime": "19:00"
+                },
+                "outsideCompetition": true,
                 "triggers": []
             },
             {
@@ -803,6 +954,12 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 5,
+                "location": 9,
+                "time": {
+                    "startTime": "13:00",
+                    "endTime": "17:00"
+                },
+                "outsideCompetition": true,
                 "triggers": ["Walka", "Niewola", "Choroba"]
             },
             {
@@ -815,6 +972,12 @@
                 "isBegginerFriendly": false,
                 "begginerFriendlyDesc": null,
                 "players": 5,
+                "location": 8,
+                "time": {
+                    "startTime": "13:00",
+                    "endTime": "17:00"
+                },
+                "outsideCompetition": true,
                 "triggers": ["wykluczenie", "ageizm", "lekka erotyka (bez nadmiernej emanacji)"]
             },
             {
@@ -827,6 +990,12 @@
                 "isBegginerFriendly": false,
                 "begginerFriendlyDesc": "Nie, sesja dla doświadczonych graczy – ALE nie jest wymagana znajomość systemu i mechaniki",
                 "players": 4,
+                "location": 7,
+                "time": {
+                    "startTime": "11:00",
+                    "endTime": "15:00"
+                },
+                "outsideCompetition": true,
                 "triggers": ["Wszystkie"]
             },
             {
@@ -839,6 +1008,12 @@
                 "isBegginerFriendly": false,
                 "begginerFriendlyDesc": "Nie, sesja dla doświadczonych graczy – ALE nie jest wymagana znajomość systemu i mechaniki",
                 "players": 4,
+                "location": 11,
+                "time": {
+                    "startTime": "15:00",
+                    "endTime": "19:00"
+                },
+                "outsideCompetition": true,
                 "triggers": ["Choroba", "bieda", "opieka medyczna", "ostre emocje"]
             },
             {
@@ -851,6 +1026,12 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": 14,
+                "time": {
+                    "startTime": "15:00",
+                    "endTime": "19:00"
+                },
+                "outsideCompetition": true,
                 "triggers": ["przemoc wobec dzieci", "horror cielesny", "brutalność", "choroby"]
             },
             {
@@ -863,6 +1044,12 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": 10,
+                "time": {
+                    "startTime": "15:00",
+                    "endTime": "19:00"
+                },
+                "outsideCompetition": true,
                 "triggers": ["Śmierć", "prostytucja", "poniżanie", "gwałt", "kanibalizm", "krew i pewnie wszystko czego spodziewamy się po wampirach"]
             },
             {
@@ -875,6 +1062,12 @@
                 "isBegginerFriendly": false,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": 30,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
+                "outsideCompetition": true,
                 "triggers": ["Przemoc", "Groza", "Samobójstwa", "Ciemność", "Gobliny", "Cień", "Oko Mordoru"]
             },
             {
@@ -887,6 +1080,11 @@
                 "isBegginerFriendly": false,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": 4,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["przemoc", "śmierć", "okultyzm", "duchy", "łamanie prawa"]
             },
             {
@@ -899,6 +1097,12 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": 29,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
+                "outsideCompetition": true,
                 "triggers": ["Brutalność", "horror", "rasizm", "brutalne sceny walki", "śmierć"]
             },
             {
@@ -911,6 +1115,11 @@
                 "isBegginerFriendly": false,
                 "begginerFriendlyDesc": "Nie, sesja dla doświadczonych graczy i wymagana jest znajomość systemu i mechaniki.",
                 "players": 4,
+                "location": 5,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["przekleństwa", "przemoc", "przemoc sexualna", "narkotyki", "religia", "samobójstwo"]
             },
             {
@@ -923,6 +1132,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": 2,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["zabójstwa", "opis zwłok"]
             },
             {
@@ -935,6 +1149,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": 18,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Nie wiem, dogadamy przed sesją"]
             },
             {
@@ -947,6 +1166,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": "?",
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["akcja", "przygoda", "kości fabularne", "pistolety", "radiacja", "magia", "kreatywność graczy", "rasizm wobec ciężko pracującej klasy robotniczej i ghuli", "zagłada świata", "niewolnictwo"]
             },
             {
@@ -959,6 +1183,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": 20,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Nieprzesadna przemoc", "problemy rodzinne", "choroby psychiczne", "autorytaryzm"]
             },
             {
@@ -971,6 +1200,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": 6,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Przemoc wobec zwierząt", "walka"]
             },
             {
@@ -983,6 +1217,11 @@
                 "isBegginerFriendly": false,
                 "begginerFriendlyDesc": "Nie, sesja dla doświadczonych graczy – ALE nie jest wymagana znajomość systemu i mechaniki",
                 "players": 4,
+                "location": 21,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Śmierć", "okaleczenie", "zjawiska paranormalne", "krew", "choroby psychiczne", "katastrofy", "ludzkie szczątki", "okultyzm", "przemoc wobec zwierząt", "przemoc wobec ludzi"]
             },
             {
@@ -995,6 +1234,11 @@
                 "isBegginerFriendly": false,
                 "begginerFriendlyDesc": "Nie, sesja dla doświadczonych graczy – ALE nie jest wymagana znajomość systemu i mechaniki",
                 "players": 5,
+                "location": 7,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["religia", "przemoc"]
             },
             {
@@ -1007,6 +1251,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": "Sesja jest docelowo przeznaczona dla doświadczonych graczy którzy nie muszą znać mechaniki, ale jeśli trafi się jakiś początkujący gracz to nic się nie stanie",
                 "players": 4,
+                "location": 8,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["brutalność", "śmierć", "krew", "wulgarność"]
             },
             {
@@ -1019,6 +1268,11 @@
                 "isBegginerFriendly": false,
                 "begginerFriendlyDesc": "Nie, sesja dla doświadczonych graczy – ALE nie jest wymagana znajomość systemu i mechaniki",
                 "players": 4,
+                "location": 1,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Przemoc", "narkotyki"]
             },
             {
@@ -1031,6 +1285,11 @@
                 "isBegginerFriendly": false,
                 "begginerFriendlyDesc": "Nie, sesja dla doświadczonych graczy – ALE nie jest wymagana znajomość systemu i mechaniki",
                 "players": 5,
+                "location": 22,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Niemiecka muzyka", "porzucenie", "porwanie", "strata", "rozłąka"]
             },
             {
@@ -1043,6 +1302,11 @@
                 "isBegginerFriendly": false,
                 "begginerFriendlyDesc": "Nie, sesja dla doświadczonych graczy – ALE nie jest wymagana znajomość systemu i mechaniki",
                 "players": 4,
+                "location": 27,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Groza", "horror", "brutalne opisy", "przemoc"]
             },
             {
@@ -1055,6 +1319,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": 9,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Głupi humor"]
             },
             {
@@ -1067,6 +1336,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": "?",
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Przemoc", "Prohibicja", "przestępstwa", "seksizm", "rasizm"]
             },
             {
@@ -1079,6 +1353,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": 24,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Brutalność" , "wulgaryzmy", "problemy połeczne"]
             },
             {
@@ -1091,6 +1370,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 5,
+                "location": 16,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Śmierć", "morderstwo", "brutalność"]
             },
             {
@@ -1103,6 +1387,11 @@
                 "isBegginerFriendly": false,
                 "begginerFriendlyDesc": "Nie, sesja dla doświadczonych graczy – ALE nie jest wymagana znajomość systemu i mechaniki",
                 "players": 5,
+                "location": 26,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Choroby psychiczne", "przemoc", "kradzież", "potworności", "zew cthulhu"]
             },
             {
@@ -1115,6 +1404,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": 19,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Brutalność", "śmierć", "używki", "halucynacje", "gady", "ciemność", "rany", "choroby psychiczne"]
             },
             {
@@ -1127,6 +1421,11 @@
                 "isBegginerFriendly": false,
                 "begginerFriendlyDesc": "Nie, sesja dla doświadczonych graczy – ALE nie jest wymagana znajomość systemu i mechaniki",
                 "players": 4,
+                "location": 15,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["horror nadnaturalny", "wulgarny język", "przemoc", "obrażenia ciała (w tym odmrożenia, rany, złamania)", "religia", "ksenofobia i rasizm"]
             },
             {
@@ -1139,6 +1438,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": 12,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["przemoc", "śmierć", "strach i niepokój", "konflikty religijne rasowe i polityczne (fantasy)", "kolonializm (fantasy)"]
             },
             {
@@ -1151,6 +1455,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": 17,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Samobójstwo", "próba samobójcza", "nieszczęśliwa miłość", "deformacja ciała", "depresja", "choroby psychiczne", "eksperymenty na ludziach"]
             },
             {
@@ -1163,6 +1472,11 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": 3,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Śmierć", "krew", "rozkład", "przemoc", "strach", "trupy", "dyskryminacja rasowa", "hazard", "pająki", "katastrofa kolejowa"]
             },
             {
@@ -1175,18 +1489,28 @@
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 4,
+                "location": 11,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["przemoc fizyczna i słowna"]
             },
             {
                 "id": "38",
                 "name": "Portret Ojca",
-                "system": "Portret Ojca",
+                "system": "Zew Cthulhu",
                 "mg": "Jan Silver Drachal (3k6 opinii)",
                 "desc": "Witajcie w Bran – to niewielkie miasto w Rumunii, umieszczone dookoła gęstego i ciemnego lasu. W mieście tym od wielu lat ludzie popadają w szaleństwo, popełniają samobójstwa, czasem nawet zbiorowe. Jest to nie byle jakie miejsce, to tu bowiem znajduje się zamek legendarnego Vlada Draculi. Może to właśnie legendy nie dają mieszkańcom spać spokojnie, może historie żołnierzy z frontu niedawno zakończonej wojny, a może coś niezbadanego zamieszkało w gęstwinie pośrodku miasta? Czas akcji – 22 maja, rok 1927. W tej przygodzie Badacze wcielą się w najbliższą rodzinę Marca Sorel, malarza portretowego, który mieszkał samotnie w pałacu na skraju miasta Bran. Niestety 15 maja odnaleziono zwłoki malarza.",
                 "minAge": 16,
                 "isBegginerFriendly": true,
                 "begginerFriendlyDesc": null,
                 "players": 3,
+                "location": 10,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["religia", "personifikacja przedmiotów"]
             },
             {
@@ -1199,6 +1523,11 @@
                 "isBegginerFriendly": false,
                 "begginerFriendlyDesc": "Nie, sesja dla doświadczonych graczy – ALE nie jest wymagana znajomość systemu i mechaniki",
                 "players": 4,
+                "location": 13,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["Przemoc", "brutalność", "rytuały", "niewolnictwo"]
             },
             {
@@ -1211,6 +1540,11 @@
                 "isBegginerFriendly": false,
                 "begginerFriendlyDesc": "Nie, sesja dla doświadczonych graczy – ALE nie jest wymagana znajomość systemu i mechaniki",
                 "players": 3,
+                "location": 23,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["przemoc", "bezsilność", "uzależnienia", "śmierć i jej przedstawienie"]
             },
             {
@@ -1223,7 +1557,467 @@
                 "isBegginerFriendly": false,
                 "begginerFriendlyDesc": "Nie, sesja dla doświadczonych graczy – ALE nie jest wymagana znajomość systemu i mechaniki",
                 "players": 4,
+                "location": 25,
+                "time": {
+                    "startTime": "20:00",
+                    "endTime": ""
+                },
                 "triggers": ["przemoc", "brutalność", "narkotyki", "możliwe inne tematy po ustaleniu z graczami tematu sesji"]
+            }
+        ]
+    },
+    "saturday": {
+        "schedule": [
+            {
+                "name": "SESJE SPONTANICZNE [Info i zapisy na AKREDYTACJI]",
+                "desc": "Mistrzu Gry! Chcesz poprowadzić sesję na Toporiadzie? Przyjdź na akredytację, wypełnij ogłoszenie i wywieś je na tablicy! Graczu! Chcesz w coś pograć? Przyjdź na akredytację i zobacz, co jest ogłoszone! Codziennie od 11 do 19:00 udostępniamy Wam namioty sesyjne – korzystajcie do woli! Macie dodatkowe pytania? Akredytacja na pewno Wam odpowie 🙂",
+                "time": {
+                    "startTime": "10:00",
+                    "endTime": "14:00"
+                },
+                "type": "Inne",
+                "location": "",
+                "author": ""
+            },
+            {
+                "name": "Pięćdziesiąt Ważnych Słów",
+                "desc": "Pięćdziesiąt. Nie mniej, nie więcej, nie „około”. Dokładnie pięćdziesiąt. Tyle będziecie mieli do dyspozycji, by stworzyć wymarzoną postać do sesji ( w dowolnym systemie) .Warsztaty opierają się na idei „fifty- word stories” i będą miały na celu zabawę słowem, przechodząc od ogółu do szczegółu a w efekcie stworzenie spójnej  historii postaci, wydobywając to, co w niej najważniejsze przy bardzo ograniczonych środkach wyrazu. Druga część- to rozbudzenie kreatywności i dokończenie składających się właśnie z 50 słów opowiadań tak, by zakończenie było jak najbardziej zaskakujące.",
+                "time": {
+                    "startTime": "11:00",
+                    "endTime": "11:45"
+                },
+                "type": "Warsztaty",
+                "location": "ognisko",
+                "author": "Marta Chochlik Struś"
+            },
+            {
+                "name": "RPGowy trójbój",
+                "desc": "Zbierzcie trzyosobową drużynę i dołączcie do pierwszego oficjalnego trójboju RPGowego. Konkurencje to RPG na P, RPGowe koło fortuny i niespodzianka 😉 Wymagana będzie jedynie ogólna wiedza z zakresu RPG i fantastyki.",
+                "time": {
+                    "startTime": "11:00",
+                    "endTime": "12:45"
+                },
+                "type": "Konkurs",
+                "location": "Stajnia Nomadów",
+                "author": "Adam Adaś Howaniec i Weronika Kaczmarska"
+            },
+            {
+                "name": "Najlepsze ćwiczenia na wyraziste postaci",
+                "desc": "Na warsztatach przedstawię techniki improwizacyjne i aktorskie służące budowaniu postaci. Będziemy uczyć się jak tworzyć różnorodnych bohaterów, którzy zapadną w pamięć współgrających. Sięgniemy po klasyczne techniki aktorskie (Czechow) i techniki znane z amerykańskich szkół improwizacji. Jeśli interesuje Cię bardziej teatralne, emocjonalne wydanie RPGów z pewnością odnajdziesz się na tych warsztatach.",
+                "time": {
+                    "startTime": "11:00",
+                    "endTime": "12:45"
+                },
+                "type": "Warsztaty",
+                "location": "Stołówka",
+                "author": "Jacek Mikulski"
+            },
+            {
+                "name": "System o siatkówce. Bez MG. Bez kości. Co może pójść nie tak w \"Siatkarzach!!\"?",
+                "desc": "Już niebawem premiera gry „Siatkarze!!” (ang. „Volley Boys!!”), która ukaże się w Polsce nakładem Imaginarium RPG. To zupełnie nieszablonowy system, w którym nie ma nie tylko MG, ale również kości. Czy to gra wyłącznie dla pasjonatów siatkówki? I czy to w ogóle może być fajne? Na pytania związane z grą postara się odpowiedzieć jej tłumacz i polski wydawca.",
+                "time": {
+                    "startTime": "11:00",
+                    "endTime": "11:45"
+                },
+                "type": "Prelekcja",
+                "location": "Polanka",
+                "author": "Maciej Szwagier Szewczyk"
+            },
+            {
+                "name": "Konkurs Tolkienowski",
+                "desc": "Mea govannen! Wejdź przyjacielu i zasiądź w naszym gronie! A może partyjka zagadek? Zapraszamy na konkurs wiedzy o świecie Tolkiena. Przewidujemy różnorodne formy sprawdzania Waszej wiedzy m.in. Taboo i Kalambury dlatego zapraszamy 2-3 osobowe drużyny.",
+                "time": {
+                    "startTime": "11:00",
+                    "endTime": "11:45"
+                },
+                "type": "Konkurs",
+                "location": "Domki",
+                "author": "Hubert Jankoś Jankowski i Magdalena Wiewka Kalinowska"
+            },
+            {
+                "name": "Whitewashing Legendy Pięciu Kręgów - czym Rokugan jest a czym mógł być",
+                "desc": "Pokusił bym się o stwierdzenie, że John Wick tworząc świat L5K, a później osoby rozwijające ten świat, nie były ekspertami od kultury i mitologii wschodu. Amalgamat kultur azjatyckich, przekładany na popularny w zachodnim świecie system RPG, wiele zakłamał i wiele zgubił. Ale nie wszystko jest takie złe i da się to jeszcze naprawić.",
+                "time": {
+                    "startTime": "12:00",
+                    "endTime": "12:45"
+                },
+                "type": "Prelekcja",
+                "location": "Polanka",
+                "author": "Antoni Cypis Mielczyński"
+            },
+            {
+                "name": "Fabula Ultima - czy tylko dla fanów anime?",
+                "desc": "Fabula Ultima to system, który zostanie niebawem wydany w języku polskim nakładem Black Monk Games. Zgodnie z opisem na okładce, jest inspirowany grami jRPG. Czy mamy do czynienia z nowym systemem, który stanie się dla wielu graczy podstawą rozgrywania opowieści w świecie fantasy, czy też z bardzo wyspecjalizowaną grą tylko dla fanów anime? Postaram się udzielić jak najwięcej informacji prowadzących do rozwiązania tej zagadki. W ostatniej części prelekcji podam kilka tropów kulturowych, które mogą stworzyć fantastyczną kanwę do opowieści rozgrywanych w systemie Fabula Ultima.",
+                "time": {
+                    "startTime": "13:00",
+                    "endTime": "13:45"
+                },
+                "type": "Prelekcja",
+                "location": "ognisko",
+                "author": "Maciej Szwagier Szewczyk"
+            },
+            {
+                "name": "Twórzmy sytuacje - nie fabuły!",
+                "desc": "Często gdy udzielam na lewo i prawo złotej rady: „Nie wymyślaj fabuł! Nie prowadź scenariuszy!” spotykam się z reakcją: „No dobra, to co mam robić? Wszystko improwizować?” Postanowiłem w związku z tym raz na zawsze (xd) pokazać Wam jak przygotowywać otwarte sesje oraz kampanie. Wpadnijcie – zrobimy to wspólnie!",
+                "time": {
+                    "startTime": "13:00",
+                    "endTime": "14:45"
+                },
+                "type": "Warsztaty",
+                "location": "Stajnia Nomadów",
+                "author": "Mateusz Mecenas Tondera"
+            },
+            {
+                "name": "Patokalambury. Nagłówki z Faktu i Super Expressu",
+                "desc": "Wszystkich miłośników kalamburów zapraszamy na ich pato odsłonę, czyli hasła z nagłówkami lub najpopularniejszymi cytatami z Faktu, Super Expressu i innych Trudnych Spraw 😂",
+                "time": {
+                    "startTime": "13:00",
+                    "endTime": "14:45"
+                },
+                "type": "Konkurs",
+                "location": "Stołówka",
+                "author": "Małgorzata Gosza Iwańska, Stasiek Shogun Trofimow"
+            },
+            {
+                "name": "Joga czterech żywiołów",
+                "desc": "Żywioły to jedne z najpotężniejszych sił wszechświata – niezwykle istotne elementy życia: powietrze, ogień, woda oraz ziemia. Wszystkie one współpracują ze sobą w harmonii. Spróbujemy poszukać czterech żywiołów w praktyce jogi, aby odnaleźć równowagę w ciele.",
+                "time": {
+                    "startTime": "13:00",
+                    "endTime": "14:45"
+                },
+                "type": "Inne",
+                "location": "Polanka",
+                "author": "Weronika Kaczmarska"
+            },
+            {
+                "name": "Yo, Yo, Piraka! - Post Mortem",
+                "desc": "Yo, Yo, Piraka! to hack do kultowego „jednostronicowego” RPGa „Honey Heist” Granta Howitta. Jest to fanowska gra w settingu LEGO Bionicle, a gra się gangiem Piraka. Pytacie się: Kim jest Piraka? Czym jest Piraka? Jak w Piraka?  – Na te i więcej pytań odpowiemy sobie na prelekcji, która przedstawi grę z lorowego i mechanicznego punktu widzenia, oraz podzielimy się spostrzeżeniami i ciekawostkami zebranymi podczas procesu twórczego.",
+                "time": {
+                    "startTime": "13:00",
+                    "endTime": "13:45"
+                },
+                "type": "Prelekcja",
+                "location": "Domki",
+                "author": "Michał Enter Ertner i Magdalena Lenka Botor"
+            },
+            {
+                "name": "Muzyka do RPG - jak to zrobić?",
+                "desc": "Wszyscy słyszeli o muzyce do filmów i gier komputerowych. Ale do RPG? Jak to zrobić skoro akcja dzieje się tylko przy stole? I jaką rolę ma w tym mistrz gry? Opowie o tym kompozytorka z kanału Krypta Pełna Kości, która taką muzykę tworzy specjalnie pod graną kampanię i której muzyka nie raz przy stole wybrzmiała.",
+                "time": {
+                    "startTime": "14:00",
+                    "endTime": "14:45"
+                },
+                "type": "Prelekcja",
+                "location": "Domki",
+                "author": "Maria Mary Wichary Antoni Cypis Mielczyński"
+            },
+            {
+                "name": "Konkurs Krzepy Krasnoludzkiej",
+                "desc": "Piwo (ewentualnie miód pitny), złoto i brody. To najważniejsze w życiu. Jednak by na to zasłużyć każdy krasnolud musi udowodnić swoją krzepę. W tym celu raz w roku spotykają się na festiwalu gdzie każdy może się pochwalić swoimi mięśniami najczęściej piwnymi. Bo krasnolud nie tylko ma brzuch piwny. Kto w tym roku zyska miano najsilniejszego krasnoluda lub krasnoludzicy. To się przekonamy",
+                "time": {
+                    "startTime": "15:00",
+                    "endTime": "16:45"
+                },
+                "type": "Konkurs",
+                "location": "ognisko",
+                "author": "Przemek Oglaf Wajda i Wojciech Capek Bog"
+            },
+            {
+                "name": "Kraina jak żadna inna! - warsztaty światotworzenia",
+                "desc": "Dla rozruszania kreatywności przed wieczornymi sesjami zapraszam na wspólne światotworzenie. Podzielimy się na grupy, wylosujemy zestaw inspiracji i przekonamy się, w jakie miejsca dotrzemy na skrzydłach wyobraźni. W trakcie warsztatów będę korzystać z narzędzi znanych z generatora prowincji opisanego w podręczniku do Smoczych Jeźdźców, ale dodam do nich też inspiracje muzyczne, graficzne i…sensoryczne! Mam w zanadrzu trochę niespodzianek – jestem przekonana, że wasze wewnętrzne dzieci będą nimi zachwycone 😉",
+                "time": {
+                    "startTime": "15:00",
+                    "endTime": "16:45"
+                },
+                "type": "Warsztaty",
+                "location": "Stajnia Nomadów",
+                "author": "Airis Kamińska"
+            },
+            {
+                "name": "Narysuj Loch nawet bez talentu",
+                "desc": "Nie potrafisz narysować prostej linii? Narysowane kółka wyglądają jak rąby? Ale nadal chcesz narysować loch? Nic prostszego nie potrzeba do tego talentu! Prowadzący sam nie ma talentu a zdziwisz się jak dobrze to wygląda! Czyli jak a pomocą prostych kresek i cierpliwości narysować wymarzony Locha z/bez smoka. Warsztaty i poradnik dla bardzo początkujących.",
+                "time": {
+                    "startTime": "15:00",
+                    "endTime": "16:45"
+                },
+                "type": "Warsztaty",
+                "location": "Stołówka",
+                "author": "Wojciech Rudy Słobodzian"
+            },
+            {
+                "name": "Prowadzenie sesji a problem Ego",
+                "desc": "Prowadzenie sesji pozwala wcielić się w narratorów, tworzycieli światów, wręcz bogów dla postaci graczy od których widzimisię zależą ich losy. Z drugiej strony to też tylko ludzie, którzy mogą mieć tremę przed prowadzeniem, albo realnie obawiać się o jakość sesji i obwiniać za jej niepowodzenie.",
+                "time": {
+                    "startTime": "15:00",
+                    "endTime": "16:45"
+                },
+                "type": "Prelekcja",
+                "location": "Polanka",
+                "author": "Adrian Żuław Żuławiński"
+            },
+            {
+                "name": "Bliss Stage: Co to i dlaczego w to nie zagracie?",
+                "desc": "Bliss Stage to systme inspirowany mecha anime, napisany przez P. H. Lee w 2007 roku. Co to za system? Jak się w niego gra? Dlaczego nie możemy przestać o nim myśleć? I dlaczego nie możemy wam go poprowadzić?",
+                "time": {
+                    "startTime": "15:00",
+                    "endTime": "16:45"
+                },
+                "type": "Prelekcja",
+                "location": "Domki",
+                "author": "Ola Brewińska i Julian Rakowski"
+            },
+            {
+                "name": "Mroczny Amulet",
+                "desc": "Raz dziennie mogę zagrać z ekipą do 8 osób w Mroczny Amulet. To sesja RPG oparta o karty. Prosta jak konstrukcja Cepa. Ponadto mogę udostępnić talię do grania w wyznaczonym przez orgów miejscu.",
+                "time": {
+                    "startTime": "17:00",
+                    "endTime": "18:45"
+                },
+                "type": "Inne",
+                "location": "ognisko",
+                "author": "Marcin Dredu Regulski"
+            },
+            {
+                "name": "Rola fikcji i MG w BitD",
+                "desc": "Mechaniki wykute w Mroku wymagają unikatowego stylu grania zarówno od MG jak i od graczy. Właściwie to cała filozofia komunikacji i przygotowania do sesji (a nie tylko operowania zasadami z podręcznika ale). Dodatkowo, w odróżnieniu od tradowych systemów, ten zaleca „minimum prepu”. Ale jak? Przecież gramy w rpg a nie improwizacje. Na tej prelekcji zdradzę wam moje sposoby na okiełznanie tych wszystkich zagadnień, pokażę jak się komunikować i jak być „świetnym MG” nawet jeśli nie przygotowaliście nic na sesje. A to wszystko na Prelekcji wykutej w Mroku… w lesie… w stanie upojenia… prawdopodobne.",
+                "time": {
+                    "startTime": "17:00",
+                    "endTime": "17:45"
+                },
+                "type": "Prelekcja",
+                "location": "Stajnia Nomadów",
+                "author": "JAkub Qbs Wnuk"
+            },
+            {
+                "name": "Sekret Lucy",
+                "desc": "Sekret Lucy to gra obyczajowa fabularna w stylu jeepforma/etiudy teatralnej. Opowiada o zmaganiach z emocjami, związkami i kochającą ale mało rozumiejącą rodziną. Gra została napisana w formie warsztatu teatralnego dla młodzieży i stanowi serię wyzwań aktorskich składających się na krótki, ale poważny spektakl. Będzie to okazja do przetrenowania zachowania się na scenie, taktowania napięcia, odgrywania emocji i współpracy z aktorami. Gra porusza tematy problemów rodzinnych, choroby i śmierci.",
+                "time": {
+                    "startTime": "17:00",
+                    "endTime": "19:45"
+                },
+                "type": "LARP",
+                "location": "Stołówka",
+                "author": "Mikołaj Joseph Gray Gano"
+            },
+            {
+                "name": "Bushido - kodeks, czy bujda?",
+                "desc": "Kodeks bushido jest właściwie nierozerwalnie połączony z kulturą wschodu, samurajskim stylem życia i wszystkim, co się może z tym kojarzyć. Czy jednak w japonii kodeks bushido w ogóle istniał? Jak wyglądała moralność pośród klanów kraju wschodzącej wiśni i czy była skodyfikowana? Skąd wziął się mit o kodeksie wojownika?",
+                "time": {
+                    "startTime": "17:00",
+                    "endTime": "17:45"
+                },
+                "type": "Prelekcja",
+                "location": "Polanka",
+                "author": "Antoni Cypis Mielczyński"
+            },
+            {
+                "name": "Anioły i demony w Biblii i czemu nikt z nich nie korzysta",
+                "desc": "Widzieliście kiedyś poprawnie odwzorowanego biblijnego anioła? No właśnie. Na sesjach jednak wciąż pojawia się demiurg, apokryficzne istoty i popkulturowo zniekształcone byty z pisma – sama biblia pełna jest jednak istot, oraz postaci, które w swojej oryginalnej formie mogą być wystarczająco przerażające i jak najbardziej zdolne do użytku. Biblijnych aniołów i demonów rzadko używa się w poprawny i zgodny z pismem sposób – czas to zmienić.",
+                "time": {
+                    "startTime": "17:00",
+                    "endTime": "17:45"
+                },
+                "type": "Prelekcja",
+                "location": "Domki",
+                "author": "Wiktor Wichary"
+            },
+            {
+                "name": "Mistrzu Gry, myślałem nad moją postacią...",
+                "desc": "Od ponad 4 lat gramy ze sobą w RPG – dużą część tych lat spędziliśmy nad jedną, ogromną kampanią. Większość z naszych postaci łamie zasady, świat, mistrza gry (albo wszystko na raz). Zapraszamy do dyskusji o tym, jak współpracować nad szalonymi pomysłami, żeby wszystko było możliwe, kampania przetrwała i wszystkim dobrze się grało.",
+                "time": {
+                    "startTime": "18:00",
+                    "endTime": "19:45"
+                },
+                "type": "Panel Dyskusyjny",
+                "location": "Stajnia Nomadów",
+                "author": "Antoni Cypis Mielczyński i Wiktor Wichary"
+            },
+            {
+                "name": "Niezwykłe Hardkorowe Kalambury Demowskie",
+                "desc": "„Spock, co do kur*y?! Widziałeś ten punkt programu?! Musisz tam być!” Jesteś psychofanem twórczości Jakuba Dębskiego (DEM3000)? Recytujesz na wyrywki fragmenty z „Przerobionego Star Treka” albo „Kucy z Bronksu”? Na wuefie grałeś tylko w piłkę-rzucankę? Na Marszu Niepodległości skandujesz „Niech żyje zbrodniczy reżim”? Ten konkurs jest dla Ciebie! Nie jesteś fanem Dema? Też przyjdź. Będzie śmiesznie. Bo nie ważne czy lubisz wolmo, czy lubisz szypko, czy w umiarkowanym tempie. Ten konkurs jest dla każdego. Ale drużynowo Graliście kiedyś w kalambury, w których prowadzący też pokazują hasła? Ja też nie. A to tylko jedna z niezwykłych zasad. Połączenie kalambur z Makao albo z Uno? Czemu nie? Co z tego wyjdzie? Niewiadomo. Zabierzcie swoje ulubione miski i wbijajcie! Do wygrania jest żółte pudełko, które Dżuls znalazł na plaży nad rawskim zalewem, kiedy szukał muszelek. Co w nim jest? Tego nie wie nikt. Nawet Takei. Może jego zawartość też będzie żółta?",
+                "time": {
+                    "startTime": "18:00",
+                    "endTime": "19:45"
+                },
+                "type": "Konkurs",
+                "location": "Polanka",
+                "author": "Adam Sadam Gołka i Jan Dżuls Walendzik"
+            },
+            {
+                "name": "Wpłynąłem na nudnego przestwór oceanu",
+                "desc": "Prowadzenie morskich przygód często sprowadza się do portów, wysp, ewentualnych bitew morskich. Wszystko co pomiędzy lubimy skracać do krótkiego opisu lub nawet samego „dopłynęliście”. Umiejscowienie grupy graczy na statku pośrodku bezmiaru słonej wody daje jednak sporo możliwości. Zapraszam do prezentacji na temat tego jak faktycznie wyglądało i wygląda życie na morzu, jak w prosty sposób podkreślić morski klimat sesji oraz jak łatwo adaptować przygody do morskich realiów. Na koniec wspólnie pomyślimy nad sposobami jak urozmaicić morską nudę.",
+                "time": {
+                    "startTime": "18:00",
+                    "endTime": "18:45"
+                },
+                "type": "Prelekcja",
+                "location": "Domki",
+                "author": "Adam Studzin Studziński"
+            },
+            {
+                "name": "Dice Royale \"Łomot\"",
+                "desc": "Wszyscy zgłoszę i gracze walczą między sobą o ostatnią puszkę mielonki turystycznej która pozostała na terenie Toporiady po tym jak w trakcie konwentu wybuchła pandemia Zombie. Można rzucać w siebie członkami stowarzyszenia dla bonusowych obrażeń.",
+                "time": {
+                    "startTime": "19:00",
+                    "endTime": ""
+                },
+                "type": "Inne",
+                "location": "ognisko",
+                "author": "Marcin Dredu Regulski"
+            },
+            {
+                "name": "Lochy, Smoki i Szatańska Panika",
+                "desc": "Jak dobrze wiecie, gry komputerowe powodują przemoc od wielu, wielu lat – ale czy słyszeliście o tym, że DnD sprowadza dzieci na drogę satanizmu? Na tej prelekcji opowiemy sobie o historii Satanic Panic, które opanowało USA w latach 80 a także zapoznacie się z zabawnymi materiałami propagandowymi jak filmy czy komiksy które ostrzegały rodziców przed straszliwą potęgą Dungeons and Dragons.",
+                "time": {
+                    "startTime": "19:00",
+                    "endTime": "19:45"
+                },
+                "type": "Prelekcja",
+                "location": "Domki",
+                "author": "Magdalena RPGowa Lenka Botor"
+            },
+            {
+                "name": "Koncert [Infracourters]",
+                "desc": "",
+                "time": {
+                    "startTime": "22:30",
+                    "endTime": ""
+                },
+                "type": "Inne",
+                "location": "",
+                "author": ""
+            },
+            {
+                "name": "Dzikie pląsy",
+                "desc": "",
+                "time": {
+                    "startTime": "24:00",
+                    "endTime": ""
+                },
+                "type": "Inne",
+                "location": "",
+                "author": ""
+            }
+        ],
+        "sessionList": [
+            {
+                "id": "1",
+                "name": "Świeża dostawa",
+                "system": "Glina",
+                "mg": "Adrian Żuław Żuławiński",
+                "desc": "W Łodzi doszło do morderstwa, odnalezione ciało w opuszczonym budynku wygląda makabrycznie, a ślady urywają się. Potrzebny jest do tego najlepszy oddział. Dołączysz do niego?",
+                "minAge": 18,
+                "isBegginerFriendly": true,
+                "begginerFriendlyDesc": null,
+                "players": 4,
+                "location": 1,
+                "time": {
+                    "startTime": "11:00",
+                    "endTime": "15:00"
+                },
+                "triggers": ["Przemoc", "morderstwo", "krew", "narkotyki", "przekleństwa", "używki"]
+            },
+            {
+                "id": "3",
+                "name": "Witajcie w Sanktuarium",
+                "system": "Cień Władcy Demonów",
+                "mg": "Dominik Hasu Powroźnik (Kulnij Se – Śląska Grupa RPGowa)",
+                "desc": "Witajcie w Sanktuarium drodzy Nefalemowie. Piekło ponownie zadrżało tym razem Mephisto próbuje siać zwątpienie i zamęt w naszej ukochanej krainie. Będziecie walczyć? Mrok przybiera nowych kształtów, czy sięgniecie nowych horyzontów swojej heroicznej siły?.",
+                "minAge": 18,
+                "isBegginerFriendly": true,
+                "begginerFriendlyDesc": null,
+                "players": 4,
+                "location": 3,
+                "time": {
+                    "startTime": "13:00",
+                    "endTime": "17:00"
+                },
+                "triggers": ["Wszystkie"]
+            },
+            {
+                "id": "4",
+                "name": "Katakumby Kozich Królów",
+                "system": "Łajdak / Knave",
+                "mg": "Arkadiusz Aranx Lesiak (Bastardzi)",
+                "desc": "Czy w ferworze tych wszystkich wspaniałych sesji Toporiadowych chciałbyś po prostu usiąść i „rozpykać loszek”? Tak? No to trafiasz w doskonałe miejsce! Wciel się w członka grupy łajdaków, którzy chcą tylko napchać kieszenie złotem! Zamiast węży, które przeważnie zamieszkiwały te tajemnicze komnaty, ich miejsce zajmują niezwykle tajemnicze i magiczne kozy. Przygoda rozpoczyna się wraz z chwilą, gdy bohaterowie wkraczają do zapomnianego grobowca. ( przygoda jest wesołą i frywolną adaptacją modułu „Tomb of the Serpent Kings” )",
+                "minAge": 16,
+                "isBegginerFriendly": true,
+                "begginerFriendlyDesc": null,
+                "players": 4,
+                "location": 2,
+                "time": {
+                    "startTime": "11:00",
+                    "endTime": "15:00"
+                },
+                "triggers": ["Kozy!"]
+            },
+            {
+                "id": "5",
+                "name": "The Gang Is on the Loose",
+                "system": "Yo, Yo, Piraka! (Bionicle Hack do Honeyheist)",
+                "mg": "Michał Enter Ertner (Bastardzi)",
+                "desc": "Setting: LEGO Bionicle Konwencja: czarna komedia akcji Masz zamiar przeprowadzić największy skok na legendarną maskę Kanohi jaki świat Matoran widział. Są tylko dwa problemy. Wasz wyjątkowy skomplikowany plan wymaga nieziemskiego wręcz zgrania w czasie, oraz.. jesteś cholernym PIRAKA! Piraka w uniwersum Bionicle to gang 6 brutalnych i agresywnych bandytów rasy Skakdi. W tej grze można grać oryginalnymi Piraka albo wygenerować sobie swoich. I żeby była jasność: jesteście tymi złymi – bandytami i złodziejami. Potraficie współpracować, ale nie jesteście partnerami na śmierć i życie. Detale, takie jak wasze przebranie, maska do zdobycia, miejsce oraz inne okoliczności skoku będą wygenerowane tuż przed sesją, zgodnie z duchem oryginalnego Honeyheista. Podobnie, konwencja będzie lekka, zabawna, absurdalna i utrzymana nurcie czarnej komedii, którego reprezentantami są Piraka w uniwersum Bionicle.",
+                "minAge": 16,
+                "isBegginerFriendly": true,
+                "begginerFriendlyDesc": null,
+                "players": 6,
+                "location": 6,
+                "time": {
+                    "startTime": "15:00",
+                    "endTime": "19:00"
+                },
+                "triggers": ["Nieprzesadna brutalność mogąca urosnąć w zależności od graczy", "Kontrola umysłów", "Granie „Tymi Złymi”"]
+            },
+            {
+                "id": "6",
+                "name": "Gra w butelkę",
+                "system": "Fallout 2d20",
+                "mg": "Stanisław Shogun Trofimow (Jestem na Przygodzie)",
+                "desc": "Rockwall City jest niewielką osadą u podnóża gór. Niegdyś miasteczko żyjące z poszukiwania złota oraz innych cennych surowców. Obecnie na ruinach starych budynków ocalali walczą o życie. Na domiar złego znajomy ranger ostrzega, że sąsiednie miasteczko Riverdale zmagało się z jakimiś bandytami – nikt nie wie co się z nimi stało.",
+                "minAge": 16,
+                "isBegginerFriendly": true,
+                "begginerFriendlyDesc": null,
+                "players": 5,
+                "location": 5,
+                "time": {
+                    "startTime": "13:00",
+                    "endTime": "17:00"
+                },
+                "triggers": ["Przemoc", "śmierć", "apokalipsa", "choroby", "krew"]
+            },
+            {
+                "id": "7",
+                "name": "Utracona Nadzieja",
+                "system": "Smoczy Jeźdźcy",
+                "mg": "Marta Chochlik Struś",
+                "desc": "W Ponurym Jarze zniknęła grupka dzieci, które przechodziły Próbę Odwagi. Co gorsza, dwójka z piątki tych dzieciaków to Nadzieje- czyli dzieci szczególne, z którymi wiązane są specjalne oczekiwania. Jedyne, co po nich zostało, to pięć uschniętych wieńców ze smoczych lilii. Ponieważ Najstarsza podejrzewa, że w grę wchodzić może działanie magii, a dotychczasowe poszukiwania nie przynoszą rezultatów, poza granice Juveny zostało wysłane poselstwo, by odnaleźć i prosić o pomoc Smoczych Jeźdźców.",
+                "minAge": 16,
+                "isBegginerFriendly": true,
+                "begginerFriendlyDesc": null,
+                "players": 4,
+                "location": 4,
+                "time": {
+                    "startTime": "13:00",
+                    "endTime": "17:00"
+                },
+                "triggers": ["samotność", "zagubienie", "strach przed ciemnością", "trudne relacje rodzinne", "trudne dorastanie"]
+            },
+            {
+                "id": "8",
+                "name": "Brzemię Dunedainów",
+                "system": "Jedyny Pierścień",
+                "mg": "Wojciech Ponury Mortis Kowalski (RPGowa Bestia)",
+                "desc": "Cień nad Eriadorem gęstnieje, ale jest jeszcze nadzieja. Cześć, i czołem! Zapraszam na jednostrzał w Śródziemiu, gdzie czteroosobowa drużyna będzie miała okazję wcielić się w dzielnych Strażników Północy, którzy muszą uporać z zagrożeniem nadciągającym ze wschodu. Wszystkich chętnych zapraszam! Ponury Mortis, RPGowa Bestia",
+                "minAge": 16,
+                "isBegginerFriendly": false,
+                "begginerFriendlyDesc": "Nie, sesja dla doświadczonych graczy – ALE nie jest wymagana znajomość systemu i mechaniki",
+                "players": 4,
+                "location": 7,
+                "time": {
+                    "startTime": "15:00",
+                    "endTime": "19:00"
+                },
+                "triggers": []
             }
         ]
     }

@@ -1,5 +1,5 @@
 
-export type EventType = "Prelekcja" | "Panel Dyskusyjny" | "Warsztaty" | "Konkurs" | "Inne";
+export type EventType = "Prelekcja" | "Panel Dyskusyjny" | "Warsztaty" | "Konkurs" | "Inne" | "LARP";
 
 export interface ScheduleItem {
     name: string
@@ -24,6 +24,7 @@ export interface SessionItem {
     location: string
     mg: string
     players: number
+    outsideCompetition?: boolean
     triggers: string[]
     time: {
         startTime: string

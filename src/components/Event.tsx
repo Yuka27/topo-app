@@ -17,6 +17,7 @@ import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
 import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
 import WidgetsIcon from '@mui/icons-material/Widgets';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
+import ForestIcon from '@mui/icons-material/Forest';
 import { Box, Chip } from '@mui/material';
 import { deepOrange, cyan, lightGreen, grey, purple } from "@mui/material/colors";
 
@@ -61,6 +62,10 @@ const Event: React.FC<EventPage> = ({ event }) => {
         icon: <EmojiEventsIcon color='success'/>,
         label: 'Konkurs'
     },
+    'LARP': {
+        icon: <ForestIcon color='success'/>,
+        label: 'LARP'
+    },
   }  
 
   return (
@@ -68,7 +73,7 @@ const Event: React.FC<EventPage> = ({ event }) => {
     onClick={handleExpandClick}>
       <CardHeader
         sx={{position: 'relative'}}
-        title={<Typography sx={{marginRight: 5}} variant="h5">{event.type && typeConfiguration[event.type].icon} {event.name}</Typography>}
+        title={<Typography sx={{marginRight: 5}} variant="h5">{event.type && typeConfiguration[event.type]?.icon} {event.name}</Typography>}
         subheader={<Box>
           <Typography variant="h6" color="text.secondary" sx={{marginTop: 1, marginBottom: 1}}>{event.time.startTime} {event.time.endTime && `- ${event.time.endTime}`}</Typography>
           {event.author && <Chip label={event.author} sx={{marginTop: 1, marginBottom: 1, marginRight: 1}} />}
